@@ -1,0 +1,43 @@
+body {
+    font-family: cursive;
+    margin: 0;
+}
+
+nav {
+    display: block;
+    background-color: #4ab5a8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.top {
+    background-color: #A84AB5;
+}
+
+.mid {
+    background-color: #B5A84A;
+}
+
+.bottom {
+    background-color: #734AB5;
+}
+
+footer {
+    background-color: beige;
+}
